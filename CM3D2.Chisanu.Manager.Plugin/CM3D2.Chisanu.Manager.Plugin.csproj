@@ -72,6 +72,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CM3D2\Manager\Plan\Plan.cs" />
     <Compile Include="CM3D2\Manager\Plugin\GUIManager.cs" />
     <Compile Include="CM3D2\Manager\Plugin\DataStatic.cs" />
     <Compile Include="CM3D2\Manager\Plugin\ShareResources.cs" />
