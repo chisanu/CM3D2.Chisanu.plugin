@@ -1,0 +1,10 @@
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\CM3D2.AddYotogiSlider.Plugin.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\CM3D2.AddYotogiSlider.Plugin.pdb
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\Assembly-CSharp.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\ExIni.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\UnityEngine.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\bin\Debug\UnityInjector.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\obj\Debug\CM3D2.AddYotogiSlider.Plugin.csprojResolveAssemblyReference.cache
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\obj\Debug\CM3D2.AddYotogiSlider.Plugin.dll
+C:\Users\Chisanu\Desktop\DLL\Project 4\CM3D2.AddYotogiSlider.Plugin\obj\Debug\CM3D2.AddYotogiSlider.Plugin.pdb
