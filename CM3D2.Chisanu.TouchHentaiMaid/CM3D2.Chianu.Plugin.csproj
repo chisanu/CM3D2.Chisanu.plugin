@@ -6,10 +6,10 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{771E565B-AF90-4A1B-8862-577583226213}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>CM3D2.AddYotogiSlider.Plugin</AssemblyName>
+    <AssemblyName>CM3D2.Chisanu.Plugin</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
-    <RootNamespace>UnityObsoleteGui</RootNamespace>
+    <RootNamespace>CM3D2</RootNamespace>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -51,9 +51,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CM3D2.Chisanu.Manager.Plugin">
-      <HintPath>..\CM3D2.Chisanu.Manager.Plugin\bin\Debug\CM3D2.Chisanu.Manager.Plugin.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityInjector">
@@ -75,16 +72,26 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CM3D2\Chisanu.TouchHentaiMaid\Plugin\AddYotogiSlider.cs" />
-    <Compile Include="CM3D2\Chisanu.TouchHentaiMaid\Plugin\ControlSignal.cs" />
-    <Compile Include="CM3D2\Chisanu.TouchHentaiMaid\Plugin\TouchCommunication.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chisanu\Manager\ChisanuUI.cs" />
+    <Compile Include="Chisanu\Manager\DataStatic.cs" />
+    <Compile Include="Chisanu\Manager\Manager.cs" />
+    <Compile Include="Chisanu\Manager\ShareResources.cs" />
+    <Compile Include="Chisanu\Plugin\TestTool\TestTool.cs" />
+    <Compile Include="Chisanu\Plugin\TestTool\TriggerObject.cs" />
+    <Compile Include="Chisanu\Plugin\Yotogi\AddYotogiSlider.cs" />
+    <Compile Include="Chisanu\Plugin\Touch\ControlSignal.cs" />
+    <Compile Include="Chisanu\Plugin\Touch\Enum.cs" />
+    <Compile Include="Chisanu\Plugin\Touch\Settings.cs" />
+    <Compile Include="Chisanu\Plugin\Touch\TouchableMaid.cs" />
+    <Compile Include="Chisanu\Plugin\Touch\TouchCommunication.cs" />
+    <Compile Include="Chisanu\Plugin\Touch\TouchTarget.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

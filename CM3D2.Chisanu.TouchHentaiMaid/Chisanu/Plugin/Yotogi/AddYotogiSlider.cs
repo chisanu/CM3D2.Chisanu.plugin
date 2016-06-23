@@ -11,20 +11,18 @@ using System.Xml;
 using System.Runtime.InteropServices;
 using UnityEngine;
 using UnityInjector.Attributes;
-using UnityObsoleteGui.CM3D2.AddYotogiSlider.Plugin;
 using UnityObsoleteGui;
+using CM3D2.Chisanu.Plugin.Touch;
 using PV = UnityObsoleteGui.PixelValuesCM3D2;
 
-
+/*
 [assembly: AssemblyTitle("CM3D2.AddYotogiSlider.Plugin")]
-[assembly: AssemblyProduct(CM3D2.AddYotogiSlider.Plugin.AddYotogiSlider.Version)]
+[assembly: AssemblyProduct(CM3D2.Chisanu.TouchHentaiMaid.Plugin.AddYotogiSlider.Version)]
 [assembly: AssemblyVersion("0.0.4.7")]
+*/
 
-
-
-namespace CM3D2.AddYotogiSlider.Plugin
+namespace CM3D2.Chisanu.Plugin.YotogiSlider
 {
-
     [PluginFilter("CM3D2x64")]
     [PluginFilter("CM3D2x86")]
     [PluginFilter("CM3D2VRx64")]

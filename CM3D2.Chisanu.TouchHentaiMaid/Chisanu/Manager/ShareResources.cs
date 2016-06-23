@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using UnityEngine;
 using System.Collections;
-namespace CMD2.ChisanuManager.Plugin
+namespace CMD2.Chisanu.Manager
 {
     /// <summary>
     /// Có chức năng load dữ liệu, nhằm hạn chế những hàm nặng gây tốn thời gian

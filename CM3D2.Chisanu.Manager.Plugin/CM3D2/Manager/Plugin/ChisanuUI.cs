@@ -30,6 +30,7 @@ namespace CMD2.ChisanuManager.Plugin
     [PluginVersion(ChisanuUI.Version)]
     public class ChisanuUI : UIDragable
     {
+        #region Control myself
         //Các dữ liệu info
         public const string PluginName = "ChisanuManagerPlugin";
         public const string Version = "0.0.1";
@@ -56,7 +57,14 @@ namespace CMD2.ChisanuManager.Plugin
         private bool _isSmall = true;
 
         private static ChisanuUI chisanuUI = null;
+
         #endregion
+        #endregion
+
+        #region Cotrol orther Plugin
+        public static TwoParamMethod<string, bool> ActivePlugin;
+        #endregion
+
         void Awake()
         {
             if (chisanuUI == null) chisanuUI = this;
@@ -162,13 +170,14 @@ namespace CMD2.ChisanuManager.Plugin
 
             for(int i=0; i<Manager.manager.allPlugin.Count; i++)
             {
-              if(  GUI.Button(
-                  new  Rect(left - sizeButton * (i + 1)*_scaleUI+0.1f*sizeButton,
+              if(Manager.manager.allPlugin[i].isActiveInScene &&
+                  GUI.Button(new  Rect(left - sizeButton * (i + 1)*_scaleUI+0.1f*sizeButton,
                   top+ 0.1f * sizeButton, 
                   sizeButton * 0.8f*_scaleUI,
                   sizeButton*0.8f*_scaleUI),
                   Manager.manager.allPlugin[i].name))
                 {
+                    if (ActivePlugin != null) ActivePlugin(Manager.manager.allPlugin[i].name, true);
                     Debug.LogWarning(Manager.manager.allPlugin[i].name + "\t clicked");
                 }
             }

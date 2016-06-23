@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using UnityEngine;
-public delegate void VoidMethod();
-public delegate void OneParamMethod<T>(T param);
-public delegate void TwoParamMethod<A, B>(A paramA, B paramB);
-namespace UnityObsoleteGui.CM3D2.AddYotogiSlider.Plugin
+
+namespace CM3D2.Chisanu.Plugin.Touch
 {
    public class ControlSignal
     {

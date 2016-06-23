@@ -7,7 +7,7 @@ public delegate void VoidMethod();
 public delegate void OneParamMethod<T>(T param);
 public delegate void TwoParamMethod<A, B>(A paramA, B paramB);
 
-namespace CMD2.ChisanuManager.Plugin
+namespace CMD2.Chisanu.Manager
 {
     public class Manager
     {
